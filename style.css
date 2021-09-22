@@ -1,0 +1,73 @@
+body{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.container
+{
+    position: relative;
+    background: url('pexels-faik-akmd-1025469.jpg') no-repeat center center;
+    height: 48rem;
+    width: 100%;
+    display: block;
+    left:0px;
+
+}
+.heder
+{
+    height: 60px;
+    width:100%;
+    background-image:linear-gradient(#d5c9cb,#596793) ;
+    border-bottom:2px solid #0f0f0f;
+    padding-top: 50px;
+    font-size: 40px;
+    color:yellow;
+    font-weight: 800;
+    text-shadow: pink;
+}
+
+.heading{
+    font-family: 'Allison', cursive;
+}
+
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+}
+
+button{
+    height:35px;
+    width:100px;
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+.table
+{
+    width:800px;
+}
+table{
+    color:rgb(8, 8, 8);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+}
+table tr :hover{
+    background-color:#0f0f0f;
+    color: #d5c9cb;
+    border-radius: 4px solid red;
+    border-radius: 20px;
+}
